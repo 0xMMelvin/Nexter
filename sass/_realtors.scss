@@ -4,13 +4,13 @@
 	padding: 3rem;
 
 	display: grid;
-	justify-content: center;
 	align-content: center;
-	grid-row-gap: 2rem;
+	justify-content: center;
 	justify-items: center;
+	grid-row-gap: 2rem;
 
 	@media only screen and (max-width: $bp-medium) {
-		grid-column: 1/ -1;
+		grid-column: 1 / -1;
 	}
 
 	&__list {
@@ -38,6 +38,6 @@
 	&__sold {
 		text-transform: uppercase;
 		color: $color-grey-light-2;
-		margin-top: -0.3rem;
+		margin-top: -3px;
 	}
 }
